@@ -8,3 +8,5 @@ It currently has:
 - Tokens (Rec Room)
 - Roomie Energy (Rec Room)
 - Skyblock coins (Hypixel)
+- Dark Dollars (Deltarune)
+- Gold (Undertale)

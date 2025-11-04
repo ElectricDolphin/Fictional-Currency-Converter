@@ -182,6 +182,9 @@
             case "specifies":
                 return warning.show().html(`*More expensive bundles grant extra <${col}>${foundCurrency.currency}</${col}>, however these are directly displayed as extras or bonuses and therefore do not count as inconsistent pricing.`)
 
+            case "speculation":
+                return warning.show().html(`*There is no official conversion rate for <${col}>${foundCurrency.currency}</${col}>. The rate of <${col}>$${foundCurrency.price} for ${foundCurrency.amount}</${col}> is based on speculation.`)
+
             case "source:":
                 let sourceURL = foundCurrency.inconsistency.split(": ")[1]
                 return warning.show().html(`*Source for <${col}>${foundCurrency.currency}</${col}>: <a target="_blank" href="${sourceURL}">${sourceURL}</a>`)
